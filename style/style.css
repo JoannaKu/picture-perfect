@@ -17,8 +17,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  width: 100%;
-  padding: 120px 0; }
+  width: 100%; }
 
 /* HERO */
 .hero {
@@ -49,6 +48,8 @@ body {
   margin-right: 740px; }
 
 /* CONTENT */
+.content {
+  padding: 120px 0; }
 .content img {
   position: absolute;
   top: 260px;
@@ -112,8 +113,7 @@ body {
 /* GALLERY */
 .gallery {
   color: white;
-  margin-right: 0;
-  padding-top: 0; }
+  margin-right: 0; }
 
 .gallery h2 {
   font-size: 30px;
@@ -134,13 +134,13 @@ body {
 .gallery .find p {
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: 0; }
+  margin-bottom: -10px; }
 
 .gallery .find span {
   margin-left: 10px; }
 
 .gallery .img-height {
-  height: 280px; }
+  height: 330px; }
 
 .gallery .big-picture {
   padding-right: 195px; }
@@ -154,7 +154,7 @@ body {
   position: relative; }
 
 .our-clients {
-  background: url("../images/picture_1.png") center no-repeat;
+  background: url("../images/picture_2.png") center no-repeat;
   background-size: cover;
   position: relative; }
 
@@ -168,7 +168,7 @@ body {
   position: relative; }
 
 .sign-up {
-  background: url("../images/picture_2.png") center no-repeat;
+  background: url("../images/picture_1.png") center no-repeat;
   background-size: cover;
   position: relative; }
 
@@ -189,7 +189,7 @@ body {
 /* DETAILS */
 .details {
   text-align: left;
-  padding-top: 0; }
+  padding: 120px 0; }
 
 .details .web-based {
   padding-right: 17.5px; }
@@ -220,11 +220,12 @@ body {
 /* MORE-POWER */
 .more-power {
   width: 100%;
-  height: 870px;
+  height: 100%;
   background: url("../images/jumbotron.png") center no-repeat;
   background-size: cover;
   color: white;
-  text-align: left; }
+  text-align: left;
+  padding: 120px 0; }
 
 .more-power .power {
   margin-right: 715px;
@@ -249,7 +250,8 @@ body {
 .additional-information {
   background-color: #82ca9c;
   color: white;
-  text-align: left; }
+  text-align: left;
+  padding: 120px 0; }
 
 .additional-information h2 {
   font-size: 35px;
@@ -269,7 +271,8 @@ body {
 
 /* BUY NOW */
 .buy-now {
-  background-color: #f6f7fa; }
+  background-color: #f6f7fa;
+  padding: 120px 0; }
 
 .buy-now .buy {
   padding-left: 55px;
@@ -327,13 +330,24 @@ body {
 .buy-now .buy:hover .btn-1 {
   background-color: #bd8cbf; }
 
+.author {
+  background-color: #434a6d;
+  font-size: 14px;
+  color: #8297a7;
+  text-align: center;
+  margin-top: 60px; }
+
+.author p {
+  margin: 0; }
+  
 /* FOOTER */
 footer {
   background-color: #192431;
   color: #f6f7fa;
   font-size: 13px;
   text-align: left;
-  line-height: 1.846; }
+  line-height: 1.846;
+  padding-top: 120px; }
 
 footer h2 {
   margin-bottom: 30px;
